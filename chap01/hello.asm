@@ -12,4 +12,4 @@ main:
     syscall         ; display the string
     mov rax, 60     ; 60 = exit
     mov rdi, 0      ; 0 = success exist code
-    syscall         ; quitZ
+    syscall         ; quit

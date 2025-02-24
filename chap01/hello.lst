@@ -14,4 +14,4 @@
     12 00000019 0F05                        syscall         ; display the string
     13 0000001B B83C000000                  mov rax, 60     ; 60 = exit
     14 00000020 BF00000000                  mov rdi, 0      ; 0 = success exist code
-    15 00000025 0F05                        syscall         ; quitZ
+    15 00000025 0F05                        syscall         ; quit
